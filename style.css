@@ -1,0 +1,81 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.hover{
+    color: #fff
+}
+
+.hover:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: aqua;
+
+}
+
+
+.lorem{
+    margin-top: 50px;
+}
+
+.video_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.video_box .alert{
+    width: 47%;
+    margin-bottom: 0.4rem;
+}
+
+/* .video{
+    text-align: center;
+} */
+iframe{
+    border: 7px double;
+}
+
+.moneyKeeper{
+    line-height: 1;
+}
+
+
+.box_video_text{
+    margin-top: 100px;
+}
+
+.github{
+    color: #000;
+}
+.github:hover{
+text-decoration: none;
+color: aqua;
+}
+
+.footer{
+    margin-top: 200px;
+    padding: 100px 0px 150px 0px;
+}
+
+.footer ul{
+    display: flex;
+    flex-wrap: wrap;justify-content: space-between;
+
+}
+
+.footer ul li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.footer a:hover{
+    color: aqua;
+}
